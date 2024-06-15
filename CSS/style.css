@@ -1,0 +1,411 @@
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+#text{
+
+    padding-top: 10em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+.float{
+     float: right;
+
+
+}
+.rounded-circle{
+    float:right
+}
+.col-lg-4{
+    color:white;
+
+}
+#name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em ;
+    color:white;
+    text-align: center;
+}
+
+.badge{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.nbutton{
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+.nimage{
+    /* position: relative; */
+   float: right;
+  padding: 20px;
+  padding-left: 40px;
+  padding-top: 100px;
+  padding-right: 40px;
+ 
+  
+    
+}
+
+#about{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    
+}
+
+#nmain{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid yellow;
+    /* text-decoration: underline; */
+    color: white;
+
+    
+
+}
+#cpp{
+    width: 80px;
+    color: green;
+}
+
+.np{
+    padding-top: 50px;
+}
+
+.col-6 ul li{
+    list-style-type:none;
+    margin: 50px 0px;
+    
+    position: relative;
+    font-weight: bold;
+    color: white;
+   
+   
+}
+
+.col-6 ul li::before{
+    content: '';
+    background-color:rgb(37, 33, 33) ;
+    position:absolute;
+    width: 100%;
+    height: 25px;
+    left:0;
+    border-radius: 25px;
+    top:calc(100% + 2px);
+
+}
+.col-6 ul li::after{
+    content: '';
+    /* background-color:rgb(247, 170, 183); */
+    position:absolute;
+    left:0;
+    width: 0%;
+    height: 25px;
+    border-radius: 25px;
+    top:calc(100% + 2px);
+
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+    animation-direction: forward;
+
+
+}
+/* HTML */
+.col-6 ul li.html::after{
+    animation-name: html;
+}
+
+@keyframes html {
+    to{
+        width: 90%;
+        background-color: rgb(255, 184, 30);
+        
+    }
+    
+}
+/* CSS */
+.col-6 ul li.css::after{
+    animation-name: css;
+}
+
+@keyframes css {
+    to{
+        width: 85%;
+        background-color: rgb(29, 44, 255);
+        
+    }
+    
+}
+/* BOOTSTRAP */
+.col-6 ul li.bootstrap::after{
+    animation-name: bootstrap;
+}
+
+@keyframes bootstrap {
+    to{
+        width: 75%;
+        background-color: rgb(255, 0, 242);
+        
+    }
+    
+}
+/* C++ */
+.col-6 ul li.cpp::after{
+    animation-name: cpp;
+}
+
+@keyframes cpp {
+    to{
+        width: 50%;
+        background-color: rgb(68, 71, 241);
+        
+    }
+    
+}
+/* JAVA */
+.col-6 ul li.java::after{
+    animation-name: java;
+}
+
+@keyframes java {
+    to{
+        width: 50%;
+        background-color: rgb(145, 255, 0);
+        
+    }
+    
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(44, 43, 43); 
+    
+}
+
+#more_info{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    font-size: 2em;
+    border-bottom:2px solid yellow;
+    color:white;
+    /* background-color: yellow; */
+    /* border-radius:10px; */
+    
+}
+.card{
+    background-color: rgb(44, 43, 43);
+   
+    margin:20px;
+}
+.education ol li{
+    color:white;
+}
+
+#education{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight:bold ;
+    font-size: 24px;
+    text-align: center;
+   
+    
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    /* float:inline-start; */
+    display: inline;
+position: absolute;
+    
+   
+}
+.orderlist{
+   
+   margin-top:20px
+    
+   
+}
+#png{
+    text-align: center;
+   position: relative;
+    
+}
+#nskills{
+    text-align: center;
+   position: relative;
+    
+}
+.skills{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight:bold ;
+    font-size: 24px;
+    text-align: center;
+   
+    
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    /* float:inline-start; */
+    display: inline;
+position: absolute;
+    
+   
+}
+.callingcentre{
+    text-align: center;
+    
+    margin-left: 320px
+   
+}
+#contact{
+    float: right;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 200px;
+    
+}
+.card-title{
+    color: white;
+    
+}
+#nQuery{
+    color: white;
+}
+#instagram{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+}
+#facebook{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;  
+}
+#github{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;  
+}
+#linkedin{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;  
+}
+
+
+#contactme{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    font-size: 2em;
+    color:white;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.nbg{
+    background-color: black;
+}
+
+#icon{
+    word-spacing: 5px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+#copyright{
+    color: white;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#git{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    background-color: yellow;
+    margin: 50px;
+    margin-left: 5000px;
+   
+    font-size: 1.6em;
+    color:black;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.ncontent{
+    text-align: center;
+    margin-top: 30px;
+}
+.info{
+   padding-top: 30px;
+   padding-left: 100px;
+
+}
+
+#nicon{
+    margin-left: 5px;
+}
+.moreinfo{
+    text-align: center;
+   
+    
+}
+
+.unorderlist:hover{
+    box-shadow: 1px 1px 7px 5px yellow;
+}
+.nav-link{
+    color: white;
+    
+}
+
+.nav-link:hover{
+    color: white;
+   
+    border-bottom: 2px solid yellow;
+    border-radius: 0px !important;
+    
+}
+.navbar-brand{
+    color:white !important;
+    
+}
+#navbar-example2{
+    position: sticky !important;
+    
+    top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
