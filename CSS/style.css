@@ -46,13 +46,16 @@
     /* position: relative; */
    float: right;
   padding: 20px;
+ 
+  
   padding-left: 40px;
-  padding-top: 100px;
+  padding-bottom: 40px;
   padding-right: 40px;
  
   
     
 }
+
 
 #about{
     font-family: 'Times New Roman', Times, serif;
